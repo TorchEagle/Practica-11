@@ -19,3 +19,20 @@ section {
     width: 250px;
     height: 250px;
 }
+
+section.taquillas {
+    position: relative;
+    left: 10%;
+}
+
+section.plantilla{
+    position: relative;
+    left: 44%;
+    bottom: 250px;
+}
+
+section.contacto {
+    position: relative;
+    left: 78%;
+    bottom: 504px;
+}
