@@ -1,17 +1,35 @@
-html{
-    font-family: sans-serif;
+html {
+    font-family: "Bebas Neue",Arial;
+}
+
+body.principal {
+    background-color: black;
+}
+
+img.valenciacf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1.ecf {
     text-align: center;
-    font-size: 140px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(67, 161, 199);
-    border: 1px solid rgb(167, 167, 167);
+    font-size: 100px;
+    color: white;
+    margin-top: 0px;
+}
+
+h1.plantilla {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0px;
 }
 
 h2 {
+    margin-top: 110px;
     text-align: center;
+    color: white;
 }
 
 section {
@@ -22,17 +40,20 @@ section {
 
 section.taquillas {
     position: relative;
-    left: 10%;
+    left: 9%;
+    background-color: orange;
 }
 
 section.plantilla{
     position: relative;
-    left: 44%;
+    left: 43%;
     bottom: 250px;
+    background-color: orange;
 }
 
 section.contacto {
     position: relative;
-    left: 78%;
+    left: 77%;
     bottom: 504px;
+    background-color: orange;
 }
