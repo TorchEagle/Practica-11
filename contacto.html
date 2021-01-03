@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contáctanos</title>
+</head>
+<body>
+    <header>
+        <h1 class="subopcion">Contáctanos</h1>
+    </header>
+    <section class="formulario">
+        <form action="contacto.php" method="POST">
+            <h2>Envíanos un mensaje</h2>
+            <p>
+                Nombre (Requerido)<br>
+                <input type="text" name="nombrecon" id="nombrecon" required>
+            </p>
+            <p>
+                Email (Requerido)<br>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                Tema<br>
+                <input type="text" name="tema" id="tema">
+            </p>
+            <p>
+                Tu mensaje<br>
+                <textarea name="mensaje" id="mensaje" cols="89" rows="10"></textarea>
+            </p>
+
+            <input type="submit" id="enviar" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>

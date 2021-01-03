@@ -2,7 +2,7 @@ html {
     font-family: "Bebas Neue",Arial;
 }
 
-body.principal {
+body.negro {
     background-color: black;
 }
 
@@ -12,6 +12,17 @@ img.valenciacf {
     margin-right: auto;
 }
 
+img.valenciacf2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+img.jugador {
+    width: 140px;
+}
+
 h1.ecf {
     text-align: center;
     font-size: 100px;
@@ -19,7 +30,7 @@ h1.ecf {
     margin-top: 0px;
 }
 
-h1.plantilla {
+h1.subopcion{
     text-align: center;
     color: white;
     background-color: black;
@@ -27,24 +38,27 @@ h1.plantilla {
 }
 
 h2 {
-    margin-top: 110px;
     text-align: center;
+}
+
+h2.seleccion {
+    margin-top: 110px;
     color: white;
 }
 
-section {
+section.taquillas {
     border: 1px solid rgb(155, 155, 155);
     width: 250px;
     height: 250px;
-}
-
-section.taquillas {
     position: relative;
     left: 9%;
     background-color: orange;
 }
 
 section.plantilla{
+    border: 1px solid rgb(155, 155, 155);
+    width: 250px;
+    height: 250px;
     position: relative;
     left: 43%;
     bottom: 250px;
@@ -52,8 +66,72 @@ section.plantilla{
 }
 
 section.contacto {
+    border: 1px solid rgb(155, 155, 155);
+    width: 250px;
+    height: 250px;
     position: relative;
     left: 77%;
     bottom: 504px;
     background-color: orange;
+}
+
+section.formulario {
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 700px;
+    margin: auto;
+    margin-top: 140px;
+}
+
+input#nombre {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+
+input#apellidos {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+input#DNI {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+
+input#taquilla {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+input#enviar {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: orange;
+    color: white;
+    border-style: hidden;
+    border-radius: 10px;
+    font-family: "Bebas Neue",Arial;
+    font-size: 18px;
+    text-align: center;
+    width: 90px;
+    height: 35px;
+}
+
+p {
+    margin-left: 20px;
 }
